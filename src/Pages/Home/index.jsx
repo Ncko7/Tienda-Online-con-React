@@ -1,9 +1,11 @@
+import Layout from "../../Components/Layout"
+
 function Home() {
     return (
-        <div className='bg-slate-500'> 
+        <Layout> 
             Home
-        </div>
+        </Layout>
     )
 }
 
-export default Home
+export default Home 
